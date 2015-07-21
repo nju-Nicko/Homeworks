@@ -1,0 +1,105 @@
+.management_ico2{
+	position: absolute;
+	left: 80px;
+	top: 90px;
+}
+
+.management_ico2:hover{
+	cursor: pointer;
+}
+
+.management_ico3{
+	position: absolute;
+	left: 300px;
+	top: 90px;
+}
+
+.management_ico3:hover{
+	cursor: pointer;
+}
+
+.userinfo_ico{
+	position: absolute;
+	left: 520px;
+	top: 90px;
+}
+
+.userinfo_ico:hover{
+	cursor: pointer;
+}
+
+.download_ico{
+	position: absolute;
+	left: 740px;
+	top: 90px;
+}
+
+.download_ico:hover{
+	cursor: pointer;
+}
+
+.d_ico{
+		position: absolute;
+	left: 960px;
+	top: 90px;
+}
+
+.d_ico:hover{
+	cursor: pointer;
+}
+
+.stats_ico{
+	position: absolute;
+	left: 1180px;
+	top: 90px;
+}
+
+.stats_ico:hover{
+	cursor: pointer;
+}
+
+#course_management{
+	position: absolute;
+	left: 110px;
+	top: 240px;
+}
+
+#homework_management{
+	position: absolute;
+	left: 330px;
+	top: 240px;
+}
+
+#selfinfo{
+	position: absolute;
+	left: 550px;
+	top: 240px;
+}
+
+#download{
+	position: absolute;
+	left: 770px;
+	top: 240px;
+}
+
+#d{
+		position: absolute;
+	left: 990px;
+	top: 240px;
+}
+
+#stats{
+	position: absolute;
+	left: 1210px;
+	top: 240px;
+}
+
+.instruction_text{
+	text-decoration: none;
+	font-family: Î¢ÈíÑÅºÚ;
+}
+
+.instruction_text:hover{
+	text-decoration: underline;
+	font-family: Î¢ÈíÑÅºÚ;
+}

@@ -1,0 +1,96 @@
+.management_ico1{
+	position: absolute;
+	left: 80px;
+	top: 90px;
+}
+
+.management_ico1:hover{
+	cursor: pointer;
+}
+
+.management_ico2{
+	position: absolute;
+	left: 300px;
+	top: 90px;
+}
+
+.management_ico2:hover{
+	cursor: pointer;
+}
+
+.userinfo_ico{
+	position: absolute;
+	left: 520px;
+	top: 90px;
+}
+
+.userinfo_ico:hover{
+	cursor: pointer;
+}
+
+.excel_ico{
+		position: absolute;
+	left: 740px;
+	top: 90px;
+}
+
+.excel_ico:hover{
+	cursor: pointer;
+}
+
+#user_management{
+	position: absolute;
+	left: 110px;
+	top: 240px;
+}
+
+#course_management{
+	position: absolute;
+	left: 330px;
+	top: 240px;
+}
+
+#selfinfo{
+	position: absolute;
+	left: 550px;
+	top: 240px;
+}
+
+#excel{
+		position: absolute;
+	left: 770px;
+	top: 240px;
+}
+
+.instruction_text{
+	text-decoration: none;
+	font-family: Î¢ÈíÑÅºÚ;
+}
+
+.instruction_text:hover{
+	text-decoration: underline;
+	font-family: Î¢ÈíÑÅºÚ;
+}
+
+#um_tb{
+	position: absolute;
+	top: 100px;
+	left: 5%;
+	width: 90%;
+}
+
+.tb_val{
+	border: 1px solid rgba(0, 0, 0, 0);
+	background-color: rgba(0, 0, 0, 0);
+	height: 34px;
+}
+
+.tb_val:hover{
+	border: 1px solid blue;
+	border-radius: 4px;
+}
+
+.tb_val:focus{
+	border: 1px solid blue;
+	border-radius: 4px;
+}

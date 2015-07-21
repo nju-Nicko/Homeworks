@@ -1,0 +1,106 @@
+.upload_ico{
+	position: absolute;
+	left: 80px;
+	top: 90px;
+}
+
+.upload_ico:hover{
+	cursor: pointer;
+}
+
+.score_ico{
+	position: absolute;
+	left: 300px;
+	top: 90px;
+}
+
+.score_ico:hover{
+	cursor: pointer;
+}
+
+.judge_ico{
+	position: absolute;
+	left: 520px;
+	top: 90px;
+}
+
+.judge_ico:hover{
+	cursor: pointer;
+}
+
+.userinfo_ico{
+	position: absolute;
+	left: 740px;
+	top: 90px;
+}
+
+.userinfo_ico:hover{
+	cursor: pointer;
+}
+
+#homework_upload{
+	position: absolute;
+	left: 110px;
+	top: 240px;
+}
+
+#score_show{
+	position: absolute;
+	left: 330px;
+	top: 240px;
+}
+
+#score_judge{
+	position: absolute;
+	left: 550px;
+	top: 240px;
+}
+
+#selfinfo{
+	position: absolute;
+	left: 770px;
+	top: 240px;
+}
+
+.instruction_text{
+	text-decoration: none;
+}
+
+.instruction_text:hover{
+	text-decoration: underline;
+}
+
+#my_course{
+	position: absolute;
+	left: 5%;
+	top: 100px;
+	width: 10%;
+}
+
+#warn{
+	position: absolute;
+	left: 20%;
+	top: 100px;
+	width: 18%;
+	font-family: Î¢ÈíÑÅºÚ;
+	font-size: 1.5em;
+	color: red;
+}
+
+.course_name{
+	color: rgb(132, 132, 255);
+}
+
+.course_name:hover{
+	cursor: pointer;
+}
+
+.download{
+	margin-left: 5px;
+	text-decoration: underline;
+}
+
+.download:hover{
+	cursor: pointer;
+	color:lightblue;
+}

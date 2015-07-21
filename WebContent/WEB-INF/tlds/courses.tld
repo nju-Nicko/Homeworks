@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE taglib PUBLIC "-//Sun Microsystems, Inc.//DTD JSP Tag Library 1.2//EN" "http://java.sun.com/dtd/web-jsptaglibrary_1_2.dtd" >
+<taglib>
+	<tlib-version>1.0</tlib-version>
+	<jsp-version>1.0</jsp-version>
+	<short-name>courses</short-name>
+	<tag>
+	    <name>courses</name>
+	    <tag-class>edu.nju.Homeworks.tag.GetCoursesHandler</tag-class>
+	    <body-content>empty</body-content>
+	</tag>
+	<tag>
+	     <name>student_course</name>
+	     <tag-class>edu.nju.Homeworks.tag.GetStudentCourseHandler</tag-class>
+	     <body-content>empty</body-content>
+	     <attribute>
+	          <name>stu_name</name>
+	          <required>true</required>
+	          <rtexprvalue>true</rtexprvalue>
+	     </attribute>
+	</tag>
+		<tag>
+	     <name>assistant_course</name>
+	     <tag-class>edu.nju.Homeworks.tag.GetAssistantCourseHandler</tag-class>
+	     <body-content>empty</body-content>
+	     <attribute>
+	          <name>stu_name</name>
+	          <required>true</required>
+	          <rtexprvalue>true</rtexprvalue>
+	     </attribute>
+	</tag>
+</taglib>

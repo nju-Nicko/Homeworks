@@ -1,0 +1,176 @@
+.management_ico2{
+	position: absolute;
+	left: 80px;
+	top: 90px;
+}
+
+.management_ico2:hover{
+	cursor: pointer;
+}
+
+.management_ico3{
+	position: absolute;
+	left: 300px;
+	top: 90px;
+}
+
+.management_ico3:hover{
+	cursor: pointer;
+}
+
+.userinfo_ico{
+	position: absolute;
+	left: 520px;
+	top: 90px;
+}
+
+.userinfo_ico:hover{
+	cursor: pointer;
+}
+
+.download_ico{
+	position: absolute;
+	left: 740px;
+	top: 90px;
+}
+
+.download_ico:hover{
+	cursor: pointer;
+}
+
+.d_ico{
+		position: absolute;
+	left: 960px;
+	top: 90px;
+}
+
+.d_ico:hover{
+	cursor: pointer;
+}
+
+#course_management{
+	position: absolute;
+	left: 110px;
+	top: 240px;
+}
+
+#homework_management{
+	position: absolute;
+	left: 330px;
+	top: 240px;
+}
+
+#selfinfo{
+	position: absolute;
+	left: 550px;
+	top: 240px;
+}
+
+#download{
+	position: absolute;
+	left: 770px;
+	top: 240px;
+}
+
+#d{
+		position: absolute;
+	left: 990px;
+	top: 240px;
+}
+
+.instruction_text{
+	text-decoration: none;
+	font-family: Î¢ÈíÑÅºÚ;
+}
+
+.instruction_text:hover{
+	text-decoration: underline;
+	font-family: Î¢ÈíÑÅºÚ;
+}
+
+#warn{
+	position: absolute;
+	left: 20%;
+	top: 100px;
+	width: 18%;
+	font-family: Î¢ÈíÑÅºÚ;
+	font-size: 1.5em;
+	color: red;
+}
+
+#my_course{
+	position: absolute;
+	left: 5%;
+	top: 100px;
+	width: 10%;
+}
+
+.course_name{
+	color: rgb(132, 132, 255);
+}
+
+.course_name:hover{
+	cursor: pointer;
+}
+
+#students{
+	position: absolute;
+	left: 20%;
+	top: 100px;
+	width: 18%;
+	font-family: Î¢ÈíÑÅºÚ;
+	font-size: 1.5em;
+	color: blue;
+}
+
+#assistants{
+	position: absolute;
+	left: 20%;
+	top: 150px;
+	width: 18%;
+	font-family: Î¢ÈíÑÅºÚ;
+	font-size: 1.5em;
+	color: blue;
+}
+
+#stu_div{
+	position: absolute;
+	left: 30%;
+	top: 100px;
+	font-family: Î¢ÈíÑÅºÚ;
+}
+
+#assis_div{
+	position: absolute;
+	left: 30%;
+	top: 150px;
+	font-family: Î¢ÈíÑÅºÚ;
+}
+
+.set:hover{
+	cursor: pointer;
+}
+
+#stu_tb{
+	position: absolute;
+	top: 100px;
+	left: 20%;
+	width: 60%;
+	top: 180px;
+}
+
+.tb_val{
+	border: 1px solid rgba(0, 0, 0, 0);
+	background-color: rgba(0, 0, 0, 0);
+	height: 34px;
+}
+
+.tb_val:hover{
+	border: 1px solid blue;
+	border-radius: 4px;
+}
+
+.tb_val:focus{
+	border: 1px solid blue;
+	border-radius: 4px;
+}

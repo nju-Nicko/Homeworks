@@ -1,0 +1,91 @@
+.stats_ico{
+	position: absolute;
+	left: 80px;
+	top: 90px;
+}
+
+.stats_ico:hover{
+	cursor: pointer;
+}
+
+.userinfo_ico{
+	position: absolute;
+	left: 300px;
+	top: 90px;
+}
+
+.userinfo_ico:hover{
+	cursor: pointer;'
+}
+
+#stats{
+	position: absolute;
+	left: 110px;
+	top: 240px;
+}
+
+#selfinfo{
+	position: absolute;
+	left: 330px;
+	top: 240px;
+}
+
+.instruction_text{
+	text-decoration: none;
+	font-family: Î¢ÈíÑÅºÚ;
+}
+
+.instruction_text:hover{
+	text-decoration: underline;
+	font-family: Î¢ÈíÑÅºÚ;
+}
+
+#students{
+	position: absolute;
+	left: 2%;
+	top: 110px;
+	width: 10%;
+}
+
+.student_name{
+	color: rgb(132, 132, 255);
+}
+
+.student_name:hover{
+	cursor: pointer;
+}
+
+#warn{
+	position: absolute;
+	left: 17%;
+	top: 110px;
+	width: 18%;
+	font-family: Î¢ÈíÑÅºÚ;
+	font-size: 1.5em;
+	color: red;
+}
+
+#his_course{
+	position: absolute;
+	left: 13%;
+	top: 110px;
+	width: 10%;
+}
+
+#warn2{
+		position: absolute;
+	left: 28%;
+	top: 110px;
+	width: 18%;
+	font-family: Î¢ÈíÑÅºÚ;
+	font-size: 1.5em;
+	color: red;
+}
+
+.course_name{
+	color: rgb(132, 132, 255);
+}
+
+.course_name:hover{
+	cursor: pointer;
+}

@@ -1,0 +1,7 @@
+.index_bg{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;  /*使背景图片自适应浏览器窗口大小*/
+	height: 400px;  
+}
