@@ -21,6 +21,7 @@
    <li><a href="manager_student_stats.jsp">学生</a></li>
    <li><a href="manager_assistant_stats.jsp">助教</a></li>
    <li><a href="manager_teacher_stats.jsp">教师</a></li>
+   <li><a href="manager_table.jsp">报表</a></li>
 </ul>
         <course:courses />
         <ul class="list-group" id="students" style="font-family: 微软雅黑;"></ul>

@@ -1,0 +1,76 @@
+CREATE DATABASE `homeworks` /*!40100 DEFAULT CHARACTER SET utf8 */;
+
+CREATE TABLE `assis_file` (
+  `cou_name` varchar(45) NOT NULL,
+  `homework_id` int(11) NOT NULL,
+  `assis_name` varchar(45) NOT NULL,
+  `path` varchar(100) NOT NULL,
+  `upload_time` varchar(1000) NOT NULL,
+  `ok` int(11) NOT NULL,
+  `judge_time` varchar(1000) DEFAULT NULL,
+  PRIMARY KEY (`cou_name`,`homework_id`,`assis_name`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+CREATE TABLE `assistant` (
+  `stu_name` varchar(45) NOT NULL,
+  `cou_name` varchar(45) NOT NULL,
+  PRIMARY KEY (`stu_name`,`cou_name`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+CREATE TABLE `course` (
+  `course_name` varchar(45) NOT NULL,
+  `teacher_name` varchar(45) NOT NULL,
+  `term` int(11) NOT NULL,
+  PRIMARY KEY (`course_name`,`teacher_name`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+CREATE TABLE `file` (
+  `cou_name` varchar(45) NOT NULL,
+  `homework_id` int(11) NOT NULL,
+  `stu_name` varchar(45) NOT NULL,
+  `path` varchar(100) DEFAULT NULL,
+  `upload_time` varchar(1000) DEFAULT NULL,
+  PRIMARY KEY (`cou_name`,`homework_id`,`stu_name`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+CREATE TABLE `homework` (
+  `cou_name` varchar(45) NOT NULL,
+  `homework_id` int(11) NOT NULL,
+  `description` varchar(1000) NOT NULL,
+  `sub_ddl` varchar(1000) NOT NULL,
+  `judge_ddl` varchar(1000) NOT NULL,
+  `type` varchar(45) NOT NULL,
+  `score` int(11) NOT NULL,
+  `difficulty` int(11) NOT NULL,
+  `deliver_time` varchar(1000) NOT NULL,
+  `demo_path` varchar(100) NOT NULL,
+  PRIMARY KEY (`cou_name`,`homework_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+CREATE TABLE `score` (
+  `cou_name` varchar(45) NOT NULL,
+  `stu_name` varchar(45) NOT NULL,
+  `hom_id` int(11) NOT NULL,
+  `score` int(11) NOT NULL,
+  `remark` varchar(1000) NOT NULL,
+  PRIMARY KEY (`cou_name`,`stu_name`,`hom_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+CREATE TABLE `select_info` (
+  `stu_name` varchar(45) NOT NULL,
+  `cou_name` varchar(45) NOT NULL,
+  PRIMARY KEY (`stu_name`,`cou_name`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+CREATE TABLE `tmp` (
+  `name` varchar(45) DEFAULT NULL,
+  `pass` varchar(45) DEFAULT NULL,
+  `type` varchar(45) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+CREATE TABLE `user` (
+  `name` varchar(45) NOT NULL,
+  `pass` varchar(45) NOT NULL,
+  `type` varchar(45) NOT NULL,
+  PRIMARY KEY (`name`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
